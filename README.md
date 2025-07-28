@@ -1,29 +1,34 @@
-# Dinosaur
-My first app
-# ⏱️ Time Pattern Engine v3.0
+# Time Pattern Engine v3.0
 
-A powerful, modular time-series analysis tool designed to visualize, predict, classify, and detect anomalies in physiological or time-based signal data — with potential applications in healthcare, neuroscience, and simulation theory.
+This engine detects and models time-based biological patterns (e.g., ECG, EEG) using deep learning (LSTM). It is capable of real-time visualization and prediction using multiple biosignals.
 
-Built with **Streamlit**, **Keras (LSTM)**, and **scikit-learn**.
+## 📦 Features
+- Multivariate LSTM predictor (ECG, EEG, HRV, etc.)
+- Real-time signal dashboard via Streamlit
+- Modular design for research and experimentation
 
----
+## 🛠 Installation
 
-## 🚀 Features
-
-- **Real-Time Dashboard**: Visualize multichannel signal inputs with an intuitive interface.
-- **Prediction Mode**: Forecast future signal trends using LSTM models.
-- **Classification Mode**: Train models to recognize labeled signal states (e.g., stress vs. baseline).
-- **Anomaly Detection Mode**: Detect unusual or potentially dangerous signal patterns using autoencoders.
-- **Signal Plotting**: Compare before-and-after training visualizations.
-
----
-
-## 📦 Installation & Deployment
-
-### Option 1: Run Locally
-
+### 1. Install Python dependencies:
 ```bash
-git clone https://github.com/your-username/time-pattern-engine.git
-cd time-pattern-engine
 pip install -r requirements.txt
-streamlit run app.py
+```
+
+### 2. Run the real-time dashboard:
+```bash
+streamlit run dashboard.py
+```
+
+## 💻 Minimum Requirements
+- Python 3.9+
+- 8 GB RAM (16 GB recommended)
+- CPU or GPU (optional)
+
+## 🔮 Roadmap
+- EEG integration
+- Time-state classification
+- Chronotherapeutic modeling
+
+---
+
+Built with science and curiosity.
